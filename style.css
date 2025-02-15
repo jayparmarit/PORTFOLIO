@@ -1,0 +1,30 @@
+.font-family{
+  font-family :"Quicksand variant0", "Tofu";
+}
+.collapse a{
+    color:#fff !important ;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2em;
+    text-decoration: none;
+    font-family :"Quicksand variant0", "Tofu";
+}
+.collapse a:hover{
+    color:#000000 !important ;
+}
+.site-hero{
+    background-image: url(img/full.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    /* background: rgba(25, 26, 24, 0.89); */
+    opacity: 0.9;
+}
+.strong-text{
+   font-weight: 900;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.site-section{
+    background: #000000dc;
+}
