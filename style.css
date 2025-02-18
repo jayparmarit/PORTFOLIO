@@ -86,6 +86,30 @@ body{
     transition: 0.5s;
     text-align: center;
 }
-
-
+.slick-next {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+}
+button, input, optgroup, select, textarea{
+    border: 1px solid white !important;
+    width: 65px !important;
+    height: 65px !important;
+    border-radius: 40px !important;
+    font-family: none !important;
+}
 /* <-----------slider section end-----------> */
+
+.site-service-item .icon{
+    display: block;
+    background: #bac964;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+}
+.site-service-item .icon span{
+    font-size: 40px;
+    color: #000000;
+    position: absolute;
+}
