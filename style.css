@@ -1,6 +1,7 @@
 body{
     background: #000000dc !important;
 }
+
 .font-family{
   font-family :"Quicksand variant0", "Tofu";
 }
@@ -87,12 +88,18 @@ body{
     text-align: center;
 }
 .slick-next {
+    background: #333;
+    color: white;
     position: absolute !important;
     right: 0 !important;
     top: 0 !important;
 }
+.slick-prev {
+    background: #333;
+    color: white;
+}
 button, input, optgroup, select, textarea{
-    border: 1px solid white !important;
+    border: none;
     width: 65px !important;
     height: 65px !important;
     border-radius: 40px !important;
@@ -100,16 +107,69 @@ button, input, optgroup, select, textarea{
 }
 /* <-----------slider section end-----------> */
 
-.site-service-item .icon{
+ /* .site-service-item .icon{
     display: block;
     background: #bac964;
     width: 100px;
     height: 100px;
     position: relative;
     border-radius: 50%;
-}
-.site-service-item .icon span{
+}  */
+.fa-laptop-code{
+    color: black;
+    padding: 40px;
     font-size: 40px;
-    color: #000000;
-    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    background-color: #bac964;
+}
+.fa-uniregistry{
+    color: black;
+    padding: 40px 48px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    /*border: 1px solid red;
+    */background-color: #bac964;
+}
+.fa-connectdevelop{
+    color: black;
+    padding: 40px 48px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    /*border: 1px solid red;
+    */background-color: #b3c25f;
+}
+.site-service-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+}
+.icon-browser2 h5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon-browser2 p{
+   color:rgba(255, 255, 255, 0.4);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site-service-item:hover{
+    box-shadow: rgba(227, 230, 69, 0.1) 0px 4px 12px;
+    transition: all 0.5s;
+}
+.about{
+    color:rgba(255, 255, 255, 0.4);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.down{
+    background-color: #6c757d;
+    border-radius: 25px;
+    letter-spacing: .2em;
+}
+.down:hover{
+    background-color: #b3c25f;
+    transition: all 0.4s;
 }
