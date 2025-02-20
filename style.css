@@ -5,6 +5,12 @@ body{
 .font-family{
   font-family :"Quicksand variant0", "Tofu";
 }
+.margin-t{
+    margin-top: 150px;
+}
+.border-b{
+  border: 1px solid #3d3b3bde;
+}
 
 .collapse a{
     color:#fff !important ;
@@ -152,12 +158,13 @@ button, input, optgroup, select, textarea{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .icon-browser2 p{
-   color:rgba(255, 255, 255, 0.4);
+   color:rgba(255, 255, 255, 0.651);
+   line-height: 2.2;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .site-service-item:hover{
-    box-shadow: rgba(227, 230, 69, 0.1) 0px 4px 12px;
+    box-shadow: rgba(208, 211, 64, 0.1) 0px 4px 12px;
     transition: all 0.5s;
 }
 .about{
@@ -171,5 +178,18 @@ button, input, optgroup, select, textarea{
 }
 .down:hover{
     background-color: #b3c25f;
+    transition: all 0.4s;
+}
+.img-icon{
+    color: black;
+    /* padding: 40px; */
+    font-size: 40px;
+    text-align: center;
+    border-radius: 100px;
+    /*border: 1px solid red;
+    */background-color: #b3c25f;
+}
+.img-icon:hover{
+    background-color: #333;
     transition: all 0.4s;
 }

@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
@@ -47,7 +48,7 @@
           </nav>
           <div class="container mt-5 pt-5">
             <div class="row intro-text align-items-center justify-content-center pt-5 mt-5">
-                <div class="col-6 text-center pt-5 mt-5">
+                <div class="col-6 text-center pt-5 mt-5" data-aos="zoom-in" data-aos-duration="1000">
                     <h1 class="site-heading text-white display-3 fs-1 fw-bold pt-5 mt-5">
                         HELLO I'M
                     </h1>
@@ -58,13 +59,14 @@
         </div>
   </section>
 
-  <section class="site-section">
+  <section class="site-section margin-t">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 "data-aos="fade-up"   data-aos-duration="1000">
                <div class="section-heading text-center col-md-12">
                   <h2 class="text-white display-2 fs-1 pt-5 mt-5">
-                    <strong class="fw-bold">project</strong>
+                    <strong class="fw-bold">Project</strong>
+                    <p class="w-25 mx-auto mt-3 border-b"></p>
                   </h2>
                </div>
             </div>
@@ -72,7 +74,7 @@
     </div>
   </section>
 
-  <section class="mt-4">
+  <section class="mt-5">
     <div class="container-fluid p-5">
       <div class="siteslick ">
         <div class="d-flex p-5 ">
@@ -98,20 +100,63 @@
   </section>
 
 
-
-  <section class="site-section">
+  <section class="site-section margin-t">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12" data-aos="fade-up"   data-aos-duration="1000">
                <div class="section-heading text-center col-md-12">
                   <h2 class="text-white display-2 fs-1 pt-5 mt-5">
-                    <strong class="fw-bold">services</strong>
+                    <strong class="fw-bold">Skills</strong>
+                    <p class="w-25 mx-auto mt-3 border-b"></p>
                   </h2>
                </div>
             </div>
         </div>
         <div class="row mt-5">
-          <div class="col-md-6 col-lg-4">
+               <div class="col-3" data-aos="fade-up"  data-aos-duration="500">
+                <div class="img-icon rounded-end">
+                  <img src="img/html.png" alt="" class="img-fluid h-50">
+                  <h5 class="text-light pt-4 display-6 fw-bold pb-3 ">HTML</h5>
+                </div>
+             </div>
+             <div class="col-3" data-aos="fade-up"  data-aos-duration="900">
+                 <div class="img-icon rounded-0">
+                   <img src="img/css.png" alt="">
+                   <h5 class="text-light pt-4 display-6 fw-bold pb-3">CSS</h5>
+                 </div>
+             </div>
+             <div class="col-3" data-aos="fade-up"  data-aos-duration="1400">
+                 <div class="img-icon rounded-0">
+                   <img src="img/jquery.png" alt="">
+                   <h5 class="text-light pt-4 display-6 fw-bold pb-3">J QUERY</h5>
+                 </div>
+             </div>
+             <div class="col-3" data-aos="fade-up"  data-aos-duration="1800">
+                 <div class="img-icon rounded-start">
+                   <img src="img/bt.png" alt="">
+                   <h5 class="text-light pt-4 display-6 fw-bold pb-3">BOOTSTRAP</h5>
+                 </div>
+             </div>
+        </div>
+    </div>
+  </section>
+
+
+
+  <section class="site-section margin-t">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" data-aos="fade-up"   data-aos-duration="1000">
+               <div class="section-heading text-center col-md-12">
+                  <h2 class="text-white display-2 fs-1 pt-5 mt-5">
+                    <strong class="fw-bold">Services</strong>
+                    <p class="w-25 mx-auto mt-3 border-b"></p>
+                  </h2>
+               </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-4"  data-aos="zoom-out-right"  data-aos-duration="1000">
             <div class="site-service-item  pt-4">
               <div class="icon mb-4">
                 <div class="icon-browser2 text-center">
@@ -122,7 +167,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in"  data-aos-duration="1000">
             <div class="site-service-item  pt-4">
               <div class="icon mb-5">
                 <div class="icon-browser2 text-center">
@@ -133,7 +178,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4" data-aos="zoom-out-left"  data-aos-duration="1000">
             <div class="site-service-item  pt-4">
               <div class="icon mb-4">
                 <div class="icon-browser2 text-center">
@@ -149,13 +194,13 @@
   </section>
 
 
-<section class="site-section mt-5 pt-5">
+<section class="site-section margin-t">
     <div class="container mt-5 pt-5">
         <div class="row mb-5 align-items-center justify-content-center">
-          <div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0">
+          <div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0" data-aos="fade-right"  data-aos-duration="1000">
             <img src="img/small.png" alt="" class="img-fluid w-80 float-end">
           </div>
-          <div class="col-lg-6 pl-lg-5">
+          <div class="col-lg-6 pl-lg-5" data-aos="fade-left"  data-aos-duration="1000">
             <div class="section-heading d-flex">
               <h2 class="text-light display-6">About</h2>
               <h3 class="text-light fs-1 fw-bold ps-2">Me</h3>
@@ -172,11 +217,29 @@
 
 
 
+<section class="site-section margin-t">
+  <div class="container">
+      <div class="row">
+          <div class="col-12" data-aos="fade-up"   data-aos-duration="1000">
+             <div class="section-heading text-center col-md-12">
+                <h2 class="text-white display-2 fs-1 pt-5 mt-5">
+                  <strong class="fw-bold d-flex justify-content-center"><h2 class="text-light display-6">Get</h2> In Touch</strong>
+                  <p class="w-25 mx-auto mt-3 border-b"></p>
+                </h2>
+             </div>
+          </div>
+      </div>
+    </div>
+</section>
+
+
+
 
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
   $('.siteslick').slick({
@@ -216,6 +279,13 @@
 });
 
 
+
+
+</script>
+
+
+<script>
+  AOS.init();
 </script>
 
 </html>
