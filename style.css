@@ -14,7 +14,7 @@ body{
 
 .collapse a{
     color:#fff !important ;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: .2em;
     text-decoration: none;
@@ -24,7 +24,7 @@ body{
     color:#000000 !important ;
 }
 .site-hero{
-    background-image: url(img/full.jpg);
+    background-image: url(img/insta.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -180,6 +180,17 @@ button, input, optgroup, select, textarea{
     background-color: #b3c25f;
     transition: all 0.4s;
 }
+.send{
+    background-color: #b3c25f;
+    border-radius: 30px;
+    letter-spacing: .2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.send:hover{
+    background-color: #333;
+    transition: all 0.4s;
+}
 .img-icon{
     color: black;
     /* padding: 40px; */
@@ -192,4 +203,39 @@ button, input, optgroup, select, textarea{
 .img-icon:hover{
     background-color: #333;
     transition: all 0.4s;
+}
+/* .form-control{
+   width: 110px !important;
+   background: #333;
+   color: #333;
+} */
+.form-group input{
+    border-radius: 10px !important;
+    height: 55px !important;
+    width: 100% !important;
+    color: #fff !important;
+    border: none !important;
+    background-color: #333!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.form-group textarea{
+    border-radius: 10px !important;
+    height: 240px !important;
+    width: 100% !important;
+    border: none !important;
+    background-color: #333!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+::placeholder {
+    color: #ffffff6e !important;
+    opacity: 1; /* Firefox */
+}
+ .footer-item a:hover{
+ color: #bdc789 !important;
+ transition: all 0.5S;
+ letter-spacing: 5px;
+ -webkit-transition: all 0.5S;
+ -moz-transition: all 0.5S;
+ -ms-transition: all 0.5S;
+ -o-transition: all 0.5S;
 }
