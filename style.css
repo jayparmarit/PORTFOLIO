@@ -11,6 +11,10 @@ body{
 .border-b{
   border: 1px solid #3d3b3bde;
 }
+.border-f{
+  border: 1px solid #3d3b3b2f;
+  width: 70%;
+}
 
 .collapse a{
     color:#fff !important ;
@@ -230,12 +234,33 @@ button, input, optgroup, select, textarea{
     color: #ffffff6e !important;
     opacity: 1; /* Firefox */
 }
+.footer a{
+    font-size: 20px;
+}
  .footer-item a:hover{
  color: #bdc789 !important;
- transition: all 0.5S;
- letter-spacing: 5px;
- -webkit-transition: all 0.5S;
- -moz-transition: all 0.5S;
- -ms-transition: all 0.5S;
- -o-transition: all 0.5S;
+ transition: all 0.4s;
+ display: block;
+ transform: scale(1.2);
 }
+.icon-footer{
+   font-size: 24px;
+   border-radius: 50%;
+   background: #333;
+   color: #bac964;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 20px;
+}
+.icon-footer:hover{
+    background-color: #b3c25f;
+    color: #333;
+    transition: all 0.4s;
+}
+
+/* .icon-color{
+    color: #b3c25f;
+} */
