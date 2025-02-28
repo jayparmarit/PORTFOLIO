@@ -8,6 +8,9 @@ body{
 .margin-t{
     margin-top: 150px;
 }
+/* .bg-fix{
+    background-color: #000000 !important;
+} */
 .border-b{
   border: 1px solid #3d3b3bde;
 }
@@ -260,7 +263,6 @@ button, input, optgroup, select, textarea{
     color: #333;
     transition: all 0.4s;
 }
-
-/* .icon-color{
+.icon-color{
     color: #b3c25f;
-} */
+}
