@@ -110,13 +110,18 @@ body{
 .slick-prev {
     background: #333;
     color: white;
+    /* width: 70px !important; */
 }
 button, input, optgroup, select, textarea{
     border: none;
-    width: 65px !important;
-    height: 65px !important;
-    border-radius: 40px !important;
+    width: 80px !important;
+    height: 70px !important;
+    border-radius: 50px !important;
     font-family: none !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    -ms-border-radius: 50px !important;
+    -o-border-radius: 50px !important;
 }
 /* <-----------slider section end-----------> */
 
