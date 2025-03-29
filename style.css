@@ -18,6 +18,9 @@ body{
   border: 1px solid #3d3b3b2f;
   width: 70%;
 }
+.imgjp{
+    /* mix-blend-mode: color-burn; */
+}
 
 .collapse a{
     color:#fff !important ;
