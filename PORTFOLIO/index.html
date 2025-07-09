@@ -7,51 +7,443 @@
     <link rel="stylesheet" href="style.css">   
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
-    <section class="site-hero">
+    <section class="site-hero overflow-hidden">
+      <!-- <img src="img/insta.jpg" alt="" class="img-fluid w-100"> -->
         <nav class="navbar navbar-expand-lg site-navbar navbar-light" id="pb-navbar">
             <div class="container">
-                <button class="navbar-toggler" type="button">
+                <button class="navbar-toggler mb-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-md-center">
-                    <ul class="navbar-nav px-5">
-                        <li class="nav-item p-5">
-                            <a href="nav-link" >HOME</a>
+                <div class="collapse navbar-collapse justify-content-md top-0 bg-fix" id="navbarSupportedContent">
+                    <div class="imgjp mb-2 pt-2	d-none d-sm-block d-md-block d-lg-block">
+                         <img src="img/new-img.png" alt="" class="img-fluid w-50 h-50">
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item pe-5 pt-3">
+                            <a href="nav-link" class="fw-bold" >HOME</a>
                         </li>
-                        <li class="nav-item p-5">
-                            <a href="nav-link">PORTFOLIO</a>
+                        <li class="nav-item  pe-5 pt-3">
+                            <a href="nav-link" class="fw-bold">PROJECT</a>
                         </li>
-                        <li class="nav-item p-5">
-                            <a href="nav-link">RESUME</a>
+                        <li class="nav-item  pe-5 pt-3">
+                            <a href="nav-link" class="fw-bold">SKILLS</a>
                         </li>
-                        <li class="nav-item p-5">
-                            <a href="nav-link">ABOUT</a>
+                        <li class="nav-item pe-5 pt-3">
+                            <a href="nav-link" class="fw-bold">SERVICES</a>
                         </li>
-                        <li class="nav-item p-5">
-                            <a href="nav-link">CONTACT</a>
+                        <li class="nav-item pe-5 pt-3">
+                            <a href="nav-link" class="fw-bold">ABOUT</a>
+                        </li>
+                        <li class="nav-item pe-5 pt-3">
+                            <a href="nav-link" class="fw-bold">CONTACT</a>
                         </li>
                     </ul>
                 </div>
             </div>
           </nav>
-          <div class="container mt-5">
-            <div class="row intro-text align-items-center justify-content-center p-5">
-                <div class="col-6 text-center pt-5 mt-5">
-                    <h1 class="site-heading text-light display-2">
-                        "HELLO I'M"
+          <div class="container mt-5 pt-5">
+            <div class="row intro-text align-items-center justify-content-center pt-5 mt-5">
+                <div class="col-6 text-center pt-5 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+                    <h1 class="site-heading text-white display-3 fs-1 fw-bold ">
+                        HELLO I'M
                     </h1>
-                    <strong class="d-block display-1 text-light fw-1 fw-bold strong-text"> JAY PARMAR </strong>
-                    <strong class="d-block text-white-50 text-1 font-family letter-spacing fs-5"> and this is my resume</strong>
-                </div>
-                <div class="col-6 text-center pt-5 mt-5">
-                    <img class="rounded-circle" src="img/pic.jpg " alt="" class=" img-fluid w-100 h-100">
+                    <strong class="d-block display-1 text-white fw-1 fw-bold strong-text "> JAY PARMAR </strong>
+                    <strong class="d-block text-white text-1 letter-spacing fs-5">I'm full stack developer </strong>
                 </div>
             </div>
         </div>
   </section>
 
+  <!-- <section class="site-section margin-t overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 "data-aos="fade-up"   data-aos-duration="1000">
+               <div class="section-heading text-center col-md-12">
+                  <h2 class="text-white display-2 fs-1 pt-5 mt-5">
+                    <strong class="fw-bold">Project</strong>
+                    <p class="w-25 mx-auto mt-3 border-b"></p>
+                  </h2>
+               </div>
+            </div>
+        </div>
+    </div>
+  </section> -->
+
+
+
+
+  <!-- <section class="mt-5 overflow-hidden">
+    <div class="container-fluid p-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="siteslick">
+            <div class="d-flex p-5 ">
+              <img src="img/mailer.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="d-flex p-5">
+               <img src="img/jio.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="d-flex p-5">
+               <img src="img/adminpanel.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="d-flex p-5">
+               <img src="img/blackslate.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="d-flex p-5">
+               <img src="img/paste.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="d-flex p-5">
+               <img src="img/crypto5.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+<!-------------------------------new project section strat-------------------->
+<section class="site-section margin-t overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" data-aos="fade-up"   data-aos-duration="1000">
+               <div class="section-heading text-center col-md-12">
+                  <h2 class="text-white display-2 fs-3 pt-5 mt-5">
+                    Featured <strong class="fw-bold fs-1">project</strong>
+                    <p class="w-25 mx-auto mt-3 border-b"></p>
+                  </h2>
+               </div>
+            </div>
+            <div class="col-md-12 d-flex border p-2">
+                <ul class="border text-white mx-auto d-flex">
+                    <li class="active border p-4 list-group-item font-family fw-bold"><a href="" class="icon-color text-decoration-none">All</a></li>
+                    <li class="active border p-4 list-group-item font-family fw-bold"><a href="" class="icon-color text-decoration-none">All</a></li>
+                    <li class="active border p-4 list-group-item font-family fw-bold"><a href="" class="icon-color text-decoration-none">All</a></li>
+                    <li class="active border p-4 list-group-item font-family fw-bold"><a href="" class="icon-color text-decoration-none">All</a></li>
+                    <li class="active border p-4 list-group-item font-family fw-bold"><a href="" class="icon-color text-decoration-none">All</a></li>
+                    <li class="active border p-4 list-group-item font-family fw-bold"><a href="" class="icon-color text-decoration-none">All</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-------------------------------new project section end-------------------->
+
+
+
+
+
+  <section class="site-section margin-t overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" data-aos="fade-up"   data-aos-duration="1000">
+               <div class="section-heading text-center col-md-12">
+                  <h2 class="text-white display-2 fs-1 pt-5 mt-5">
+                    <strong class="fw-bold">Skills</strong>
+                    <p class="w-25 mx-auto mt-3 border-b"></p>
+                  </h2>
+               </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+               <div class="col-md-6 col-lg-4 col-xl-3" data-aos="fade-up"  data-aos-duration="500">
+                <div class="img-icon rounded-end">
+                  <img src="img/html.png" alt="" class="img-fluid h-50">
+                  <h5 class="text-light pt-4 display-6 fw-bold pb-3 ">HTML</h5>
+                </div>
+             </div>
+             <div class="col-md-6 col-lg-4 col-xl-3" data-aos="fade-up"  data-aos-duration="900">
+                 <div class="img-icon rounded-0">
+                   <img src="img/css.png" alt="">
+                   <h5 class="text-light pt-4 display-6 fw-bold pb-3">CSS</h5>
+                 </div>
+             </div>
+             <div class="col-md-6 col-lg-4 col-xl-3" data-aos="fade-up"  data-aos-duration="1400">
+                 <div class="img-icon rounded-0">
+                   <img src="img/jquery.png" alt="">
+                   <h5 class="text-light pt-4 display-6 fw-bold pb-3">J QUERY</h5>
+                 </div>
+             </div>
+             <div class="col-md-6 col-lg-4 col-xl-3" data-aos="fade-up"  data-aos-duration="1800">
+                 <div class="img-icon rounded-start">
+                   <img src="img/bt.png" alt="">
+                   <h5 class="text-light pt-4 display-6 fw-bold pb-3">BOOTSTRAP</h5>
+                 </div>
+             </div>
+        </div>
+    </div>
+  </section>
+
+
+
+  <section class="site-section margin-t overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" data-aos="fade-up"   data-aos-duration="1000">
+               <div class="section-heading text-center col-md-12">
+                  <h2 class="text-white display-2 fs-1 pt-5 mt-5">
+                    <strong class="fw-bold">Services</strong>
+                    <p class="w-25 mx-auto mt-3 border-b"></p>
+                  </h2>
+               </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6 col-lg-4 mb-3"  data-aos="zoom-out-right"  data-aos-duration="1000">
+            <div class="site-service-item  pt-4">
+              <div class="icon mb-4">
+                <div class="icon-browser2 text-center">
+                  <i class="fa-solid fa-laptop-code mb-4"></i>
+                  <h5 class="text-light ">WEB DESIGN</h5>
+                  <p class="mt-4">Far far away, behind the word mountains, <br> far from the countries Vokalia and <br> Consonantia, there live the blind texts. <br> Separated they live in Bookmarksgrove <br> right at the coast of the Semantics, a large <br> language ocean.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3" data-aos="zoom-in"  data-aos-duration="1000">
+            <div class="site-service-item  pt-4">
+              <div class="icon mb-5">
+                <div class="icon-browser2 text-center">
+                  <i class="fa-brands fa-uniregistry mb-4 rounded-circle"></i>
+                  <h5 class="text-light ">UI/UX DESIGNER</h5>
+                  <p class="mt-4">Far far away, behind the word mountains, <br> far from the countries Vokalia and <br> Consonantia, there live the blind texts. <br> Separated they live in Bookmarksgrove <br> right at the coast of the Semantics, a large <br> language ocean.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="zoom-out-left"  data-aos-duration="1000">
+            <div class="site-service-item  pt-4">
+              <div class="icon mb-4">
+                <div class="icon-browser2 text-center">
+                  <i class="fa-brands fa-connectdevelop mb-4"></i>
+                  <h5 class="text-light ">WEB DEVELOPER</h5>
+                  <p class="mt-4">Far far away, behind the word mountains, <br> far from the countries Vokalia and <br> Consonantia, there live the blind texts. <br> Separated they live in Bookmarksgrove <br> right at the coast of the Semantics, a large <br> language ocean.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+
+<section class="site-section margin-t overflow-hidden">
+    <div class="container mt-5 pt-5">
+        <div class="row mb-5 align-items-center justify-content-center">
+          <div class="col-lg-6 pr-lg-5 mb-5 mb-lg-0" data-aos="fade-right"  data-aos-duration="1000">
+            <img src="img/small.png" alt="" class="img-fluid w-80 float-end">
+          </div>
+          <div class="col-lg-6 pl-lg-5" data-aos="fade-left"  data-aos-duration="1000">
+            <div class="section-heading d-flex">
+              <h2 class="text-light display-6">About</h2>
+              <h3 class="text-light fs-1 fw-bold ps-2">Me</h3>
+            </div>
+            <p class="about">A full-stack developer is someone who is skilled in both front-end and back-end development, essentially handling all layers of a web application or software. They work on the client-side (what users interact with) and the server-side (the logic, databases, and infrastructure behind the scenes).</p>
+            <br>
+            <br>
+
+            <a href="" class="text-decoration-none p-3  text-white fw-bold text-1 down">DOWNLOAD CV</a>
+          </div>
+        </div>
+     </div>
+</section>
+
+
+
+<section class="site-section margin-t overflow-hidden">
+  <div class="container">
+      <div class="row">
+          <div class="col-12" data-aos="fade-up"   data-aos-duration="1000">
+             <div class="section-heading text-center col-md-12">
+                <h2 class="text-white display-2 fs-1 pt-5 mt-5">
+                  <strong class="fw-bold d-flex justify-content-center"><h2 class="text-light display-6 me-2">Get</h2> In Touch</strong>
+                  <p class="w-25 mx-auto mt-3 border-b"></p>
+                </h2>
+             </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7  mb-5 mb-md-0" data-aos="fade-right"  data-aos-duration="1000">
+          <form action="" class="site-form mb-5">
+            <br>
+            <br>
+            <h2 class="text-light display-6  mb-5 text-center">Get In Touch</h2>
+            <div class="form-group  mb-3">
+              <input type="text" placeholder="Your Name" class="form-control text-secondary">
+            </div>          
+            <div class="form-group  mb-3">
+              <input type="e-mail" placeholder="Your Email" class="form-control ">
+            </div>          
+            <div class="form-group  mb-3">
+              <input type="phone" placeholder="Your Phone" class="form-control ">
+            </div>          
+            <div class="form-group  mb-5">
+              <textarea  placeholder="Write a Message" class="form-control px-3 py-4"></textarea>
+            </div>    
+            
+            <a href="" class="text-decoration-none p-3  text-white text-1 send p-2">SEND MESSAGE</a>
+          </form>
+        </div>
+        <div class="col-md-5 pl-md-5" data-aos="fade-left"  data-aos-duration="1000">
+          <h2 class="text-light display-6 mt-5  mb-5 text-center">Contact details</h2>
+          <ul class="site-contact-details text-center">
+            <li class="border border-secondary pt-2 mb-2 border-opacity-25 rounded-1">
+              <span class="ps-3 fw-bold fs-5 text-light"> Email</span> <br>
+               <p class="about">jayparmarit28@gmail.com</p>  
+            </li> <br>
+            <li class="border border-secondary pt-2 mb-2 border-opacity-25 rounded-1">
+              <span class="ps-3 fw-bold text-light"> Phone</span> <br>
+               <p class="about">+91 846 985 0174</p> 
+            </li> <br>
+            <li class="border border-secondary pt-2 mb-2 border-opacity-25 rounded-1">
+              <span class="ps-3 fw-bold text-light"> Address</span> <br>
+             <p class="about">BHAVNAGAR , GUJARAT </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+<section class="overflow-hidden">
+  <div class="container-fluid bg-secondary mt-5 pt-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+           <div class="section-heading text-center col-md-12">
+              <h2 class="text-white display-2 fw-bold fs-3 pb-5">
+                <strong class="fw-bold">CONTACT US</strong>
+                <p class="w-25 mx-auto mt-3 border-b"></p>
+              </h2>
+           </div>
+        </div>
+     </div>
+     <br>
+     <div class="row">
+      <div class="col-12 d-flex justify-content-center">
+        <div class="icon-footer">
+         <a href="https://github.com/dashboard" class="text-decoration-none">
+          <i class="fa-brands fa-github"></i>
+        </a> 
+        </div>
+        <div class="icon-footer">
+         <a href="https://instagram.com/jayyyyy__2101" class="text-decoration-none">
+          <i class="fa-brands fa-instagram"></i>
+        </a> 
+        </div>
+        <div class="icon-footer">
+         <a href="https://snapchat.com/jayyyyy2101" class="text-decoration-none">
+          <i class="fa-brands fa-snapchat"></i>
+        </a> 
+        </div>
+        <div class="icon-footer">
+         <a href="https://x.com/jayyyyy2101" class="text-decoration-none">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a> 
+        </div>
+        <div class="icon-footer">
+         <a href="https://www.linkedin.com/in/jay-parmar-50b070353/" class="text-decoration-none">
+          <i class="fa-brands fa-linkedin"></i>
+        </a> 
+        </div>
+      </div>
+    </div>
+     <br>
+     <br>
+     <div class="row g-5">
+            <div class="col-12 d-flex justify-content-center ">
+                <div class="footer-item d-flex justify-content-center flex-wrap">
+                  <div class="footer"> 
+                    <a href="" class="text-decoration-none text-body-secondary fw-bold pe-5">HOME</a>
+                  </div>
+                  <div class="footer"> 
+                    <a href="" class="text-decoration-none text-body-secondary fw-bold pe-5">PROJECT</a>
+                  </div>
+                  <div class="footer"> 
+                    <a href="" class="text-decoration-none text-body-secondary fw-bold pe-5">SKILLS</a>
+                  </div>
+                  <div class="footer"> 
+                    <a href="" class="text-decoration-none text-body-secondary fw-bold pe-5">SERVICES</a>
+                  </div>
+                  <div class="footer"> 
+                    <a href="" class="text-decoration-none text-body-secondary fw-bold pe-5">ABOUT</a>
+                  </div>
+                  <div class="footer"> 
+                    <a href="" class="text-decoration-none text-body-secondary fw-bold">GET IN TOUCH</a>
+                  </div>
+                </div>
+            </div>
+      </div>
+    </div>
+    <br>
+    <p class="mx-auto mt-3 border-f"></p>
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>"Copyright © 2025 All rights reserved | This portfolio is made with  by <a href="" class="text-decoration-none text-light fw-bold fs-5">JAY PARMAR</a> "</p>
+      </div>
+    </div>
+</div>
+</section>
+
 </body>
 <script src="bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  $('.siteslick').slick({
+  dots: false,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+
+
+
+</script>
+
+
+<script>
+  AOS.init();
+</script>
+
 </html>
