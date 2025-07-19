@@ -1,9 +1,30 @@
+body{
+    background: #000000dc !important;
+}
+
 .font-family{
   font-family :"Quicksand variant0", "Tofu";
 }
+.margin-t{
+    margin-top: 150px;
+}
+/* .bg-fix{
+    background-color: #000000 !important;
+} */
+.border-b{
+  border: 1px solid #3d3b3bde;
+}
+.border-f{
+  border: 1px solid #3d3b3b2f;
+  width: 70%;
+}
+.imgjp{
+    /* mix-blend-mode: color-burn; */
+}
+
 .collapse a{
     color:#fff !important ;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: .2em;
     text-decoration: none;
@@ -13,14 +34,268 @@
     color:#000000 !important ;
 }
 .site-hero{
-    /* background-image: url(img/pic.jpg); */
+    background-image: url(img/insta.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     position: relative;
-    background: rgba(0, 0, 0, 0.5);
+    /* background: rgba(25, 26, 24, 0.89); */
+    opacity: 0.9;
 }
 .strong-text{
    font-weight: 900;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family:Georgia, 'Times New Roman', Times, serif;
 }
+/* .siteslick.img:hover{
+    color:#000000 ;
+} */
+
+
+/* <-----------slider section start-----------> */
+
+
+
+ .slide-text{
+    align-items: flex-end;
+    /* background: #d33333; */
+    border-radius: 15px;
+    box-shadow: 0 7px 10px rgba(228, 213, 213, 0.5);
+    display: flex;
+    height: 360px;
+    margin: 10px;
+    position: relative;
+}
+
+/* .slide-text .info{
+   opacity: 0.8;
+   position: absolute;
+   top: 90px;
+  right: 120px;
+   transition: 0.5s;
+   z-index: 1/1;
+}
+.slide-text .info button{
+     background: #fff !important;
+    border-radius: 5px !important;
+    color: black !important;
+    font-weight: 500;
+} */
+.info h5{
+    position: relative;
+    transform: translate(-50%, -50%);
+    scale: (0);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    transition:.5s;
+    background-color: #000000dc;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    font-family:"Quicksand variant0", "Tofu";
+    border-radius: 10px;
+    line-height: 35px;
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 0.5s;
+    text-align: center;
+}
+.slick-next {
+    background: #333;
+    color: white;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+}
+.slick-prev {
+    background: #333;
+    color: white;
+    /* width: 70px !important; */
+}
+button, input, optgroup, select, textarea{
+    border: none;
+    width: 80px !important;
+    height: 70px !important;
+    border-radius: 50px !important;
+    font-family: none !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    -ms-border-radius: 50px !important;
+    -o-border-radius: 50px !important;
+}
+/* <-----------slider section end-----------> */
+
+ /* .site-service-item .icon{
+    display: block;
+    background: #bac964;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+}  */
+.fa-laptop-code{
+    color: black;
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    background-color: #bac964;
+}
+.fa-uniregistry{
+    color: black;
+    padding: 40px 48px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    /*border: 1px solid red;
+    */background-color: #bac964;
+}
+.fa-connectdevelop{
+    color: black;
+    padding: 40px 48px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    /*border: 1px solid red;
+    */background-color: #b3c25f;
+}
+.site-service-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+}
+.icon-browser2 h5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon-browser2 p{
+   color:rgba(255, 255, 255, 0.651);
+   line-height: 2.2;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site-service-item:hover{
+    box-shadow: rgba(208, 211, 64, 0.1) 0px 4px 12px;
+    transition: all 0.5s;
+}
+.about{
+    color:rgba(255, 255, 255, 0.4);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.down{
+    background-color: #6c757d;
+    border-radius: 25px;
+    letter-spacing: .2em;
+}
+.down:hover{
+    background-color: #b3c25f;
+    transition: all 0.4s;
+}
+.send{
+    background-color: #b3c25f;
+    border-radius: 30px;
+    letter-spacing: .2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.send:hover{
+    background-color: #333;
+    transition: all 0.4s;
+}
+.img-icon{
+    color: black;
+    /* padding: 40px; */
+    font-size: 40px;
+    text-align: center;
+    border-radius: 100px;
+    /*border: 1px solid red;
+    */background-color: #b3c25f;
+}
+.img-icon:hover{
+    background-color: #333;
+    transition: all 0.4s;
+}
+.img-c{
+    width: 50px;
+    color: #000000;
+}
+/* .form-control{
+   width: 110px !important;
+   background: #333;
+   color: #333;
+} */
+.form-group input{
+    border-radius: 10px !important;
+    height: 55px !important;
+    width: 100% !important;
+    color: #fff !important;
+    border: none !important;
+    background-color: #333!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+.form-group textarea{
+    border-radius: 10px !important;
+    height: 240px !important;
+    width: 100% !important;
+    border: none !important;
+    background-color: #333!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+::placeholder {
+    color: #ffffff6e !important;
+    opacity: 1; /* Firefox */
+}
+.footer a{
+    font-size: 20px;
+}
+ .footer-item a:hover{
+ color: #bdc789 !important;
+ transition: all 0.4s;
+ display: block;
+ transform: scale(1.2);
+}
+.icon-footer{
+   font-size: 24px;
+   border-radius: 50%;
+   background: #333;
+   color: #bac964;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 20px;
+}
+.icon-footer:hover{
+    background-color: #b3c25f;
+    color: #333;
+    transition: all 0.4s;
+}
+.icon-color{
+    color: #b3c25f !important;
+}
+.icon-color-1{
+     color:rgba(255, 255, 255, 0.4);
+}
+.icon-color-1:hover{
+    color: #b3c25fe1 !important;
+}
+.text-green{
+    color: #b3c25f !important;
+}
+
+/* -------new project section---- */
+.section-heading{
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 10;
+} 
+
+
+ 
+
+/* -------new project section---- */
