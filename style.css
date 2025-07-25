@@ -219,6 +219,10 @@ button, input, optgroup, select, textarea{
     background-color: #333;
     transition: all 0.4s;
 }
+.img-c{
+    width: 50px;
+    color: #000000;
+}
 /* .form-control{
    width: 110px !important;
    background: #333;
@@ -272,5 +276,26 @@ button, input, optgroup, select, textarea{
     transition: all 0.4s;
 }
 .icon-color{
-    color: #b3c25f;
+    color: #b3c25f !important;
 }
+.icon-color-1{
+     color:rgba(255, 255, 255, 0.4);
+}
+.icon-color-1:hover{
+    color: #b3c25fe1 !important;
+}
+.text-green{
+    color: #b3c25f !important;
+}
+
+/* -------new project section---- */
+.section-heading{
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 10;
+} 
+
+
+ 
+
+/* -------new project section---- */
