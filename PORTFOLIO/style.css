@@ -3,7 +3,7 @@ body{
 }
 
 .font-family{
-  font-family :"Quicksand variant0", "Tofu";
+  font-family :"Quicksand variant0", "Tofu" !important;
 }
 .margin-t{
     margin-top: 150px;
@@ -286,6 +286,15 @@ button, input, optgroup, select, textarea{
 }
 .text-green{
     color: #b3c25f !important;
+}
+.bg-green{
+    background-color: #b3c25f !important;
+
+}
+.bg-green:hover{
+    background-color: #333 !important;
+    color: white !important;
+    transition: all 0.5s !important;
 }
 
 /* -------new project section---- */
