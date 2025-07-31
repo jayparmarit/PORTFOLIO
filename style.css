@@ -3,7 +3,7 @@ body{
 }
 
 .font-family{
-  font-family :"Quicksand variant0", "Tofu";
+  font-family :"Quicksand variant0", "Tofu" !important;
 }
 .margin-t{
     margin-top: 150px;
@@ -278,6 +278,9 @@ button, input, optgroup, select, textarea{
 .icon-color{
     color: #b3c25f !important;
 }
+.icon-color:hover{
+    color: black !important;
+}
 .icon-color-1{
      color:rgba(255, 255, 255, 0.4);
 }
@@ -287,6 +290,14 @@ button, input, optgroup, select, textarea{
 .text-green{
     color: #b3c25f !important;
 }
+.bg-green{
+    background-color: #b3c25f !important;
+}
+.bg-green:hover{
+    background-color: #333 !important;
+    color: white !important;
+    transition: all 0.5s !important;
+}
 
 /* -------new project section---- */
 .section-heading{
@@ -294,6 +305,10 @@ button, input, optgroup, select, textarea{
     position: relative;
     z-index: 10;
 } 
+.imgs>img:hover{
+    transition: all 0.5s !important;
+    scale: 0.9;
+}
 
 
  
