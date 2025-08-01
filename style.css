@@ -8,9 +8,7 @@ body{
 .margin-t{
     margin-top: 150px;
 }
-/* .bg-fix{
-    background-color: #000000 !important;
-} */
+
 .border-b{
   border: 1px solid #3d3b3bde;
 }
@@ -21,14 +19,14 @@ body{
 .imgjp{
     /* mix-blend-mode: color-burn; */
 }
-
 .collapse a{
     color:#fff !important ;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: .2em;
     text-decoration: none;
-    font-family :"Quicksand variant0", "Tofu";
+    font-family:"Quicksand variant0", "Tofu";
+    transition:all 0.4s;
 }
 .collapse a:hover{
     color:#000000 !important ;
